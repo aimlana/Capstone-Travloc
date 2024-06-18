@@ -23,7 +23,7 @@
       }
     </style>
   </head>
-  <body class="font-plusJakarta">
+  <body class="font-plusJakarta bg-alabaster">
     <header class="flex items-center fixed px-20.5 h-28 w-screen bg-transparent z-50">
       <div class="flex items-center justify-between w-full" id="nav-menu">
         <h1 class="text-4xl font-grandHotel text-white">Travloc</h1>
@@ -35,10 +35,11 @@
             <li>Tentang Kami</li>
           </ul>
         </nav>
-        <a href="#" class="bg-white text-orange-500 font-semibold py-1.5 px-8 border-none rounded-lg">Daftar</a>
+        <a href="#" class="bg-white text-princetonOrange font-semibold py-1.5 px-8 border-none rounded-lg">Daftar</a>
       </div>
     </header>
-    <div id="hero" class="m-7 h-screen rounded-3xl overflow-hidden relative" style="background-image: url(./public/images/hero-bg.png);">
+    <!-- Hero -->
+    <section id="hero" class="m-7 h-screen rounded-3xl overflow-hidden relative" style="background-image: url(./public/images/hero-bg.png);">
       <div class="hero-content flex flex-col items-center justify-center mt-64 z-0">
         <h1 class="text-5xl font-semibold text-white text-center">Temukan Keindahan Wisata Lokal <br>di Ujung Jari Anda, Jelajahi Sekarang!</h1>
         <!-- Search Input -->
@@ -50,7 +51,7 @@
           </div>
         </form>
       </div>
-      <div class="grid grid-cols-2 justify-items-stretch mx-16 mt-36">
+      <div class="grid grid-cols-2 justify-items-stretch mx-16 mt-40">
         <div class="flex flex-col gap-5 items-start">
           <div class="location items-center justify-center gap-3 border py-2 px-4 rounded-full w-48">
             <svg width="24" height="24" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -58,7 +59,7 @@
             </svg>
             <p class="text-white text-sm">Pulau Padar, NTT</p>
           </div>
-          <p class="text-white text-lg">Jelajahi Keindahan Nusantara Bersama Kami dan Temukan <br>Pesona Tersembunyi Serta UMKM Lokal di Setiap Sudut Negeri.</p>
+          <p class="text-white text-base">Jelajahi Keindahan Nusantara Bersama Kami dan Temukan <br>Pesona Tersembunyi Serta UMKM Lokal di Setiap Sudut Negeri.</p>
         </div>
         <button class="flex gap-2 bg-white/15 py-3 px-5 rounded-full border h-13 justify-self-end self-end">
           <p class="text-white">Jelajahi Sekarang</p>
@@ -67,6 +68,29 @@
           </svg>
         </button>
       </div>
-    </div>
+    </section>
+    <!-- About -->
+    <section id="about" class="mx-20.5 my-32">
+      <h2 class="uppercase text-princetonOrange font-semibold">||<span class="ml-3">Tentang Kami</span></h2>
+      <div class="grid grid-cols-2 justify-items-stretch">
+        <p class="w-190 mt-7 text-4.5xl font-medium">Kami menghubungkan Anda dengan keindahan wisata dan UMKM lokal di Indonesia. <span class="text-gray-500">Kami membantu Anda menjelajahi pesona Nusantara dan mendukung perekonomian lokal.</span></p>
+        <div class="flex items-center gap-8 justify-self-end self-end">
+          <div class="flex flex-col items-center gap-2">
+            <h3 class="text-4.5xl font-semibold">250+</h3>
+            <p class="text-gray-500">Pengguna Setia</p>
+          </div>
+          <div class="w-0.5 h-9 bg-gray-500"></div>
+          <div class="flex flex-col items-center gap-2">
+            <h3 class="text-4.5xl font-semibold">24+</h3>
+            <p class="text-gray-500">Tempat Wisata</p>
+          </div>
+          <div class="w-0.5 h-9 bg-gray-500"></div>
+          <div class="flex flex-col items-center gap-2">
+            <h3 class="text-4.5xl font-semibold">173+</h3>
+            <p class="text-gray-500">UMKM Lokal</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
