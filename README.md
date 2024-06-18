@@ -2,6 +2,6 @@
 
 ## Project Started
 
-### Build TailwindCSS
+- Build TailwindCSS
 ```bash
 npm run build:css
