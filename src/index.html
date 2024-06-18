@@ -14,17 +14,9 @@
       referrerpolicy="no-referrer"
     />
     <title>Travloc</title>
-    <style>
-      .location {
-        display: inline-flex;
-      }
-      .location p {
-        margin: 0;
-      }
-    </style>
   </head>
   <body class="font-plusJakarta bg-alabaster">
-    <header class="flex items-center fixed px-20.5 h-28 w-screen bg-transparent z-50">
+    <header id="header" class="flex items-center fixed px-20.5 h-40 w-screen bg-transparent z-50 top-0 transition ease-in duration-300">
       <div class="flex items-center justify-between w-full" id="nav-menu">
         <h1 class="text-4xl font-grandHotel text-white">Travloc</h1>
         <nav>
@@ -35,7 +27,7 @@
             <li>Tentang Kami</li>
           </ul>
         </nav>
-        <a href="#" class="bg-white text-princetonOrange font-semibold py-1.5 px-8 border-none rounded-lg">Daftar</a>
+        <a href="#" id="register" class="bg-white text-princetonOrange font-semibold py-1.5 px-8 border-none rounded-lg">Daftar</a>
       </div>
     </header>
     <!-- Hero -->
@@ -46,18 +38,18 @@
         <form class="mt-9 w-2/5">   
           <label for="search" class="mb-2 text-sm font-medium sr-only text-white">Search</label>
           <div class="relative">
-            <input type="search" id="search" class="block w-full p-4 ps-10 text-sm text-gray-900 border border-white rounded-full bg-gray-400/15 placeholder-white" placeholder="Telusuri destinasi, produk lokal dan usaha lokal" required />
+            <input type="search" id="search" class="block w-full p-4 ps-6 text-sm text-gray-900 border border-white rounded-full bg-gray-400/15 placeholder-white" placeholder="Telusuri destinasi, produk lokal dan usaha lokal" required />
             <button type="submit" class="text-white absolute end-2.5 bottom-2.5 bg-princetonOrange hover:bg-spanishOrange focus:ring-4 focus:outline-none focus:ring-feldsparOrange font-medium rounded-full text-sm px-8 py-2"><i class="fa-solid fa-arrow-right text-lg text-center"></i></button>
           </div>
         </form>
       </div>
       <div class="grid grid-cols-2 justify-items-stretch mx-16 mt-40">
         <div class="flex flex-col gap-5 items-start">
-          <div class="location items-center justify-center gap-3 border py-2 px-4 rounded-full w-48">
+          <div class="location inline-flex items-center justify-center gap-3 border py-2 px-4 rounded-full w-48">
             <svg width="24" height="24" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path d="M5.843 4.568a8.707 8.707 0 1 1 12.314 12.314l-1.187 1.174c-.875.858-2.01 1.962-3.406 3.312a2.25 2.25 0 0 1-3.128 0l-3.491-3.396c-.439-.431-.806-.794-1.102-1.09a8.707 8.707 0 0 1 0-12.314Zm11.253 1.06A7.207 7.207 0 1 0 6.904 15.822L8.39 17.29a753.98 753.98 0 0 0 3.088 3 .75.75 0 0 0 1.043 0l3.394-3.3c.47-.461.863-.85 1.18-1.168a7.207 7.207 0 0 0 0-10.192ZM12 7.999a3.002 3.002 0 1 1 0 6.004 3.002 3.002 0 0 1 0-6.003Zm0 1.5a1.501 1.501 0 1 0 0 3.004 1.501 1.501 0 0 0 0-3.003Z" fill="#ffffff"/>
             </svg>
-            <p class="text-white text-sm">Pulau Padar, NTT</p>
+            <p class="text-white text-sm m-0">Pulau Padar, NTT</p>
           </div>
           <p class="text-white text-base">Jelajahi Keindahan Nusantara Bersama Kami dan Temukan <br>Pesona Tersembunyi Serta UMKM Lokal di Setiap Sudut Negeri.</p>
         </div>
@@ -77,20 +69,23 @@
         <div class="flex items-center gap-8 justify-self-end self-end">
           <div class="flex flex-col items-center gap-2">
             <h3 class="text-4.5xl font-semibold">250+</h3>
-            <p class="text-gray-500">Pengguna Setia</p>
+            <p class="text-gray-400 font-medium">Pengguna Setia</p>
           </div>
-          <div class="w-0.5 h-9 bg-gray-500"></div>
+          <div class="w-0.5 h-9 bg-gray-400"></div>
           <div class="flex flex-col items-center gap-2">
             <h3 class="text-4.5xl font-semibold">24+</h3>
-            <p class="text-gray-500">Tempat Wisata</p>
+            <p class="text-gray-400 font-medium">Tempat Wisata</p>
           </div>
-          <div class="w-0.5 h-9 bg-gray-500"></div>
+          <div class="w-0.5 h-9 bg-gray-400"></div>
           <div class="flex flex-col items-center gap-2">
             <h3 class="text-4.5xl font-semibold">173+</h3>
-            <p class="text-gray-500">UMKM Lokal</p>
+            <p class="text-gray-400 font-medium">UMKM Lokal</p>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- Script -->
+    <script src="./scripts/index.js"></script>
   </body>
 </html>
