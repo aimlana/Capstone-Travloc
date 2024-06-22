@@ -51,15 +51,15 @@ class AppFooter extends HTMLElement {
         referrerpolicy="no-referrer"
       />
       <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-      <footer class="bg-maastrichtBlue px-16 pb-10 pt-20 relative bottom-0 left-0">
+      <footer class="bg-maastrichtBlue px-20 pb-10 pt-20 relative bottom-0 left-0">
         <div class="flex justify-between">
           <div>
           <h5 class="text-4xl text-white font-grandHotel">Travloc</h5>
           <p class="text-white mt-7">Temukan Keajaiban Wisata Lokal dan Dukung <br>UMKM di Seluruh Nusantara</p>
           <div class="social-media flex gap-6 mt-8">
-            <a href="#"><i class="fa-brands fa-whatsapp text-white text-xl"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram text-white text-xl"></i></a>
-            <a href="#"><i class="fa-brands fa-youtube text-white text-xl"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp text-white text-2xl"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram text-white text-2xl"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube text-white text-2xl"></i></a>
           </div>
         </div>
         <div class="flex gap-24">
