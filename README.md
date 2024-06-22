@@ -5,3 +5,9 @@
 - Build TailwindCSS
 ```bash
 npm run build:css
+```
+
+- Build Webpack Server
+```bash
+npm run start-dev
+```
