@@ -40,7 +40,7 @@
           <label for="search" class="mb-2 text-sm font-medium sr-only text-white">Search</label>
           <div class="relative">
             <input type="search" id="search" class="block w-full p-4 ps-6 text-sm text-gray-900 border border-white rounded-full bg-gray-400/15 placeholder-white" placeholder="Telusuri destinasi, produk lokal dan usaha lokal" required />
-            <button type="submit" class="text-white absolute end-2.5 bottom-2.5 bg-princetonOrange hover:bg-spanishOrange focus:ring-4 focus:outline-none focus:ring-feldsparOrange font-medium rounded-full text-sm px-8 py-2"><i class="fa-solid fa-arrow-right text-lg text-center"></i></button>
+            <button type="submit" class="text-white absolute end-2 bottom-1.2 bg-princetonOrange hover:bg-spanishOrange focus:ring-4 focus:outline-none focus:ring-feldsparOrange font-medium rounded-full text-sm px-8 py-2"><i class="fa-solid fa-arrow-right text-lg text-center"></i></button>
           </div>
         </form>
       </div>
@@ -129,7 +129,7 @@
             <p class="text-sm text-gray-300">Eksplorasi Budaya dan Keindahan Alam Nusa <br>Tenggara Timur.</p>
           </div>
           <div class="link-container bottom-0 right-0 px-7 py-10 absolute z-10">
-            <a class="text-white border py-2 px-6 rounded-full text-sm bg-white/15">Telusuri</a>
+            <a href="#" class="text-white border py-2 px-6 rounded-full text-sm bg-white/15">Telusuri</a>
           </div>
         </div>
         
@@ -192,8 +192,77 @@
       </div>
     </section>
 
-    <app-footer></app-footer>
+    <!-- Review -->
+    <section id="review" class="mx-20.5 mt-44 mb-32">
+      <h2 class="uppercase text-princetonOrange font-semibold text-center">||<span class="ml-3">Ulasan</span></h2>
+      <h3 class="text-5xl mt-7 font-medium text-center">Pendapat dan Pengalaman Pengguna <br>Tentang Kami</h3>
+      <div class="review-content grid grid-cols-3 gap-7 mt-20">
+        <review-card>
+          <img slot="profile-picture" src="images/landing-page/profile-photo/pp1.jpg" alt="profile picture">
+          <span slot="reviewer-name">Byeon Woo-seok</span>
+          <span slot="review-text">
+            Saya menemukan semua informasi yang saya butuhkan untuk perjalanan ke Sumatera Utara. Panduan dan tipsnya sangat membantu, dan saya berhasil menemukan beberapa tempat wisata yang belum banyak diketahui orang.
+          </span>
+        </review-card>
+        <review-card>
+          <img slot="profile-picture" src="images/landing-page/profile-photo/pp2.jpg" alt="profile picture">
+          <span slot="reviewer-name">Tatiana Kuznetsova</span>
+          <span slot="review-text">
+            Desain Travloc sangat user-friendly. Navigasi mudah dan saya bisa menemukan informasi dengan cepat. Saya suka bagaimana semua disusun dengan rapi dan jelas.
+          </span>
+        </review-card>
+        <review-card>
+          <img slot="profile-picture" src="images/landing-page/profile-photo/pp3.jpg" alt="profile picture">
+          <span slot="reviewer-name">Sophia Liu</span>
+          <span slot="review-text">
+            Saya pernah menghubungi layanan pelanggan Travloc untuk beberapa pertanyaan, dan mereka sangat responsif dan membantu. Pengalaman yang sangat menyenangkan dan membuat perjalanan saya lebih lancar.
+          </span>
+        </review-card>
+        <review-card>
+          <img slot="profile-picture" src="images/landing-page/profile-photo/pp4.jpg" alt="profile picture">
+          <span slot="reviewer-name">Axeline Hana</span>
+          <span slot="review-text">
+            Travloc memberi saya pengalaman wisata yang sangat autentik. Saya bisa menikmati keindahan alam dan budaya lokal sekaligus mendukung UMKM setempat. Ini cara yang bagus untuk berwisata!
+          </span>
+        </review-card>
+        <review-card>
+          <img slot="profile-picture" src="images/landing-page/profile-photo/pp5.jpg" alt="profile picture">
+          <span slot="reviewer-name">Ryuji Takahashi</span>
+          <span slot="review-text">
+            Saya sangat menghargai informasi detail dan akurat yang disediakan oleh Travloc. Semua yang saya butuhkan untuk perjalanan ke Sulawesi Utara ada di sini, termasuk peta, ulasan, dan rekomendasi aktivitas
+          </span>
+        </review-card>
+        <review-card>
+          <img slot="profile-picture" src="images/landing-page/profile-photo/pp6.jpg" alt="profile picture">
+          <span slot="reviewer-name">Elena Mikhailov</span>
+          <span slot="review-text">
+            Travloc benar-benar membantu saya menemukan UMKM lokal yang luar biasa. Saya membeli oleh-oleh khas dari NTT dan sangat puas dengan kualitasnya. Platform ini sangat mudah digunakan dan informatif.
+          </span>
+        </review-card>
+      </div>
+    </section>
+    
+    <!-- Subscribe -->
+    <div id="subscribe" class="p-7">
+      <div class="relative w-full h-161.2 overflow-hidden rounded-3xl">
+        <img src="images/landing-page/padar2.jpg" alt="padar" class="w-full h-full object-cover">
+        <div class="absolute inset-0 bg-black opacity-40"></div>
+        <div class="absolute inset-0 flex flex-col items-center justify-center z-10">
+          <h2 class="text-white text-5xl font-medium">Tunggu apa lagi? Mulai petualanganmu <br>dan jelajahi pengalaman baru hari ini</h2>
+          <!-- Search Input -->
+          <form class="mt-16 w-2/5">   
+            <label for="search" class="mb-2 text-sm font-medium sr-only text-white">Search</label>
+            <div class="relative">
+              <input type="search" id="search" class="block w-full p-4 ps-6 text-sm text-gray-900 border border-white rounded-full bg-gray-400/15 placeholder-white" placeholder="Masukkan email kamu disini . . ." required />
+              <button type="submit" class="text-white absolute end-1.5 bottom-1.2 bg-princetonOrange hover:bg-spanishOrange focus:ring-4 focus:outline-none focus:ring-feldsparOrange font-medium rounded-full text-sm px-8 py-3">Subscribe</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
 
+    <!-- Footer -->
+    <app-footer></app-footer>
 
     <!-- Script -->
     <script src="bundle.js"></script>
