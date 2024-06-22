@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 const customSpacing = {
+  1.2: '0.316rem',
   13: '52px',
   20.5: '82px',
   27: '108px',
@@ -12,7 +13,8 @@ const customSpacing = {
   161.2: '645px',
   175: '700px',
   182.7: '731px',
-  190: '760px'
+  190: '760px',
+  216: '800px'
 };
 
 module.exports = {
