@@ -60,8 +60,8 @@ class AppNavbar extends HTMLElement {
           <h1 class="text-4xl font-grandHotel text-white">Travloc</h1>
           <nav>
             <ul class="flex items-center justify-between gap-10 text-white">
-              <li><a href="#">Beranda</a></li>
-              <li><a href="#">Destinasi</a></li>
+              <li><a href="index.html">Beranda</a></li>
+              <li><a href="destination.html">Destinasi</a></li>
               <li><a href="#">Usaha Lokal</a></li>
               <li><a href="#">Tentang Kami</a></li>
             </ul>
