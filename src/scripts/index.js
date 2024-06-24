@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
   scrollHandler();
   faqCardToogleHandler();
   setupCardToggleListeners();
+  AOS.init();
 });
 
 
