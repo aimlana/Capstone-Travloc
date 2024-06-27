@@ -1,6 +1,21 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const path = require('path');
+const glob = require('glob');
+
+// Fungsi untuk menghasilkan instance HtmlWebpackPlugin untuk setiap file HTML
+function generateHtmlPlugins(templateDir) {
+  const templateFiles = glob.sync(`${templateDir}/**/*.html`);
+  return templateFiles.map(file => {
+    const fileName = path.basename(file);
+    return new HtmlWebpackPlugin({
+      filename: fileName,
+      template: path.resolve(__dirname, file),
+    });
+  });
+}
+
+const htmlPlugins = generateHtmlPlugins('./src/templates/pages');
 
 module.exports = {
   entry: {
@@ -31,10 +46,7 @@ module.exports = {
       filename: 'index.html',
       template: path.resolve(__dirname, 'src/templates/index.html'),
     }),
-    new HtmlWebpackPlugin({
-      filename: 'destination.html',
-      template: path.resolve(__dirname, 'src/templates/pages/destination.html'),
-    }),
+    ...htmlPlugins,
     new CopyWebpackPlugin({
       patterns: [
         {
