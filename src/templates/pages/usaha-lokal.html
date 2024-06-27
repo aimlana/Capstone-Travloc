@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <style>
+    .line-clamp {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      -webkit-line-clamp: 4; /* Number of lines to show */
+      white-space: normal;
+    }
+  </style>
+  <title>Usaha Lokal</title>
+</head>
+<body class="font-plusJakarta bg-alabaster w-screen overflow-x-hidden">
+  <!-- Navbar -->
+  <app-navbar></app-navbar>
+
+  <!-- Hero -->
+  <section id="hero" class="h-screen relative overflow-hidden">
+    <img src="images/labuan-bajo.webp" alt="penyu" class="w-full h-full object-cover">
+    <div class="absolute inset-0 bg-black opacity-50"></div>
+    <div class="absolute inset-0 flex flex-col items-center justify-center z-10">
+      <h1 class="text-5xl font-semibold text-white">Kenali dan Dukung Usaha Lokal di Nusantara</h1>
+      <p class="text-white text-lg mt-6 text-center">Temukan Produk dan Layanan Berkualitas dari UMKM di Seluruh Indonesia, dan <br>Jadilah Bagian dari Pertumbuhan Ekonomi Lokal</p>
+    </div>
+  </section>
+
+  <!-- UMKM List -->
+  <section class="mx-20.5 mt-28">
+    <div class="flex justify-between items-center  mb-20">
+      <h2 class="text-3xl font-semibold">Daftar UMKM</h2>
+      <div class="w-80 bg-gray-300 rounded-full py-4 px-8">search</div>
+    </div>
+    <div class="mb-24 grid grid-cols-3 w-full">
+      <div class="w-[396px] h-auto rounded-3xl flex flex-col bg-white pb-6">
+        <div class="w-full h-[200px] overflow-hidden rounded-t-3xl">
+          <img src="images/tas-rajut.jpg" alt="tas rajut" class="w-full h-full object-cover">
+        </div>
+        <div class="px-8 w-full flex flex-col items-start">
+          <div class="flex justify-between items-center mt-8 w-full">
+            <a href="detail.html"><h3 class="text-xl font-semibold">Usaha Makmur Selalu</h3></a>
+            <p class="font-medium"><i class="fa-solid fa-star text-[#F9BD22] pe-2"></i>4.8</p>
+          </div>
+          <p class="text-sm font-medium text-gray-400 mt-3"><i class="fa-solid fa-location-dot pe-2"></i>Kupang, NTT</p>
+          <p class="w-full text-base mt-5 line-clamp">Usaha kami berdedikasi dalam menghasilkan kerajinan tangan berkualitas tinggi, khususnya Tas Anyaman. Setiap tas dibuat dengan keterampilan dan keahlian yang diwariskan secara turun-temurun, menggunakan bahan-bahan alami yang ramah lingkungan. Dengan desain yang unik dan fungsionalitas yang tinggi, tas anyaman dari Usaha Makmur Selalu menjadi pilihan sempurna untuk berbagai kesempatan, dari acara formal hingga penggunaan sehari-hari.</p>
+          <a href="#" class="text-center text-white py-2 w-full rounded-xl bg-princetonOrange mt-6">Selengkapnya</a>
+        </div>
+      </div>
+      <div class="w-[396px] h-auto rounded-3xl flex flex-col bg-white pb-6">
+        <div class="w-full h-[200px] overflow-hidden rounded-t-3xl">
+          <img src="images/tas-rajut.jpg" alt="tas rajut" class="w-full h-full object-cover">
+        </div>
+        <div class="px-8 w-full flex flex-col items-start">
+          <div class="flex justify-between items-center mt-8 w-full">
+            <h3 class="text-xl font-semibold">Usaha Makmur Selalu</h3>
+            <p class="font-medium"><i class="fa-solid fa-star text-[#F9BD22] pe-2"></i>4.8</p>
+          </div>
+          <p class="text-sm font-medium text-gray-400 mt-3"><i class="fa-solid fa-location-dot pe-2"></i>Kupang, NTT</p>
+          <p class="w-full text-base mt-5 line-clamp">Usaha kami berdedikasi dalam menghasilkan kerajinan tangan berkualitas tinggi, khususnya Tas Anyaman. Setiap tas dibuat dengan keterampilan dan keahlian yang diwariskan secara turun-temurun, menggunakan bahan-bahan alami yang ramah lingkungan. Dengan desain yang unik dan fungsionalitas yang tinggi, tas anyaman dari Usaha Makmur Selalu menjadi pilihan sempurna untuk berbagai kesempatan, dari acara formal hingga penggunaan sehari-hari.</p>
+          <a href="#" class="text-center text-white py-2 w-full rounded-xl bg-princetonOrange mt-6">Selengkapnya</a>
+        </div>
+      </div>
+      <div class="w-[396px] h-auto rounded-3xl flex flex-col bg-white pb-6">
+        <div class="w-full h-[200px] overflow-hidden rounded-t-3xl">
+          <img src="images/tas-rajut.jpg" alt="tas rajut" class="w-full h-full object-cover">
+        </div>
+        <div class="px-8 w-full flex flex-col items-start">
+          <div class="flex justify-between items-center mt-8 w-full">
+            <h3 class="text-xl font-semibold">Usaha Makmur Selalu</h3>
+            <p class="font-medium"><i class="fa-solid fa-star text-[#F9BD22] pe-2"></i>4.8</p>
+          </div>
+          <p class="text-sm font-medium text-gray-400 mt-3"><i class="fa-solid fa-location-dot pe-2"></i>Kupang, NTT</p>
+          <p class="w-full text-base mt-5 line-clamp">Usaha kami berdedikasi dalam menghasilkan kerajinan tangan berkualitas tinggi, khususnya Tas Anyaman. Setiap tas dibuat dengan keterampilan dan keahlian yang diwariskan secara turun-temurun, menggunakan bahan-bahan alami yang ramah lingkungan. Dengan desain yang unik dan fungsionalitas yang tinggi, tas anyaman dari Usaha Makmur Selalu menjadi pilihan sempurna untuk berbagai kesempatan, dari acara formal hingga penggunaan sehari-hari.</p>
+          <a href="#" class="text-center text-white py-2 w-full rounded-xl bg-princetonOrange mt-6">Selengkapnya</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <app-footer></app-footer>
+</body>
+</html>
