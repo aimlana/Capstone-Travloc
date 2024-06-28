@@ -7,6 +7,11 @@
 npm run build:css
 ```
 
+- Build Webpack
+```bash
+npm run build
+```
+
 - Build Webpack Server
 ```bash
 npm run start-dev
