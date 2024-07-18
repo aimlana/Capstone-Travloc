@@ -12,12 +12,15 @@
     crossorigin="anonymous"
     referrerpolicy="no-referrer"
   />
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <style>
     .line-clamp {
       display: -webkit-box;
       -webkit-box-orient: vertical;
       overflow: hidden;
-      -webkit-line-clamp: 4; /* Number of lines to show */
+      -webkit-line-clamp: 4; 
       white-space: normal;
     }
   </style>
@@ -43,50 +46,7 @@
       <h2 class="text-3xl font-semibold">Daftar UMKM</h2>
       <div class="w-80 bg-gray-300 rounded-full py-4 px-8">search</div>
     </div>
-    <div class="mb-24 grid grid-cols-3 w-full">
-      <div class="w-[396px] h-auto rounded-3xl flex flex-col bg-white pb-6">
-        <div class="w-full h-[200px] overflow-hidden rounded-t-3xl">
-          <img src="images/tas-rajut.jpg" alt="tas rajut" class="w-full h-full object-cover">
-        </div>
-        <div class="px-8 w-full flex flex-col items-start">
-          <div class="flex justify-between items-center mt-8 w-full">
-            <a href="detail.html"><h3 class="text-xl font-semibold">Usaha Makmur Selalu</h3></a>
-            <p class="font-medium"><i class="fa-solid fa-star text-[#F9BD22] pe-2"></i>4.8</p>
-          </div>
-          <p class="text-sm font-medium text-gray-400 mt-3"><i class="fa-solid fa-location-dot pe-2"></i>Kupang, NTT</p>
-          <p class="w-full text-base mt-5 line-clamp">Usaha kami berdedikasi dalam menghasilkan kerajinan tangan berkualitas tinggi, khususnya Tas Anyaman. Setiap tas dibuat dengan keterampilan dan keahlian yang diwariskan secara turun-temurun, menggunakan bahan-bahan alami yang ramah lingkungan. Dengan desain yang unik dan fungsionalitas yang tinggi, tas anyaman dari Usaha Makmur Selalu menjadi pilihan sempurna untuk berbagai kesempatan, dari acara formal hingga penggunaan sehari-hari.</p>
-          <a href="#" class="text-center text-white py-2 w-full rounded-xl bg-princetonOrange mt-6">Selengkapnya</a>
-        </div>
-      </div>
-      <div class="w-[396px] h-auto rounded-3xl flex flex-col bg-white pb-6">
-        <div class="w-full h-[200px] overflow-hidden rounded-t-3xl">
-          <img src="images/tas-rajut.jpg" alt="tas rajut" class="w-full h-full object-cover">
-        </div>
-        <div class="px-8 w-full flex flex-col items-start">
-          <div class="flex justify-between items-center mt-8 w-full">
-            <h3 class="text-xl font-semibold">Usaha Makmur Selalu</h3>
-            <p class="font-medium"><i class="fa-solid fa-star text-[#F9BD22] pe-2"></i>4.8</p>
-          </div>
-          <p class="text-sm font-medium text-gray-400 mt-3"><i class="fa-solid fa-location-dot pe-2"></i>Kupang, NTT</p>
-          <p class="w-full text-base mt-5 line-clamp">Usaha kami berdedikasi dalam menghasilkan kerajinan tangan berkualitas tinggi, khususnya Tas Anyaman. Setiap tas dibuat dengan keterampilan dan keahlian yang diwariskan secara turun-temurun, menggunakan bahan-bahan alami yang ramah lingkungan. Dengan desain yang unik dan fungsionalitas yang tinggi, tas anyaman dari Usaha Makmur Selalu menjadi pilihan sempurna untuk berbagai kesempatan, dari acara formal hingga penggunaan sehari-hari.</p>
-          <a href="#" class="text-center text-white py-2 w-full rounded-xl bg-princetonOrange mt-6">Selengkapnya</a>
-        </div>
-      </div>
-      <div class="w-[396px] h-auto rounded-3xl flex flex-col bg-white pb-6">
-        <div class="w-full h-[200px] overflow-hidden rounded-t-3xl">
-          <img src="images/tas-rajut.jpg" alt="tas rajut" class="w-full h-full object-cover">
-        </div>
-        <div class="px-8 w-full flex flex-col items-start">
-          <div class="flex justify-between items-center mt-8 w-full">
-            <h3 class="text-xl font-semibold">Usaha Makmur Selalu</h3>
-            <p class="font-medium"><i class="fa-solid fa-star text-[#F9BD22] pe-2"></i>4.8</p>
-          </div>
-          <p class="text-sm font-medium text-gray-400 mt-3"><i class="fa-solid fa-location-dot pe-2"></i>Kupang, NTT</p>
-          <p class="w-full text-base mt-5 line-clamp">Usaha kami berdedikasi dalam menghasilkan kerajinan tangan berkualitas tinggi, khususnya Tas Anyaman. Setiap tas dibuat dengan keterampilan dan keahlian yang diwariskan secara turun-temurun, menggunakan bahan-bahan alami yang ramah lingkungan. Dengan desain yang unik dan fungsionalitas yang tinggi, tas anyaman dari Usaha Makmur Selalu menjadi pilihan sempurna untuk berbagai kesempatan, dari acara formal hingga penggunaan sehari-hari.</p>
-          <a href="#" class="text-center text-white py-2 w-full rounded-xl bg-princetonOrange mt-6">Selengkapnya</a>
-        </div>
-      </div>
-    </div>
+    <div class="umkm-list mb-24 grid grid-cols-3 w-full gap-10"></div>
   </section>
 
   <!-- Footer -->
