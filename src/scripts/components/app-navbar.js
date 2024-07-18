@@ -62,8 +62,8 @@ class AppNavbar extends HTMLElement {
             <ul class="flex items-center justify-between gap-10 text-white">
               <li><a href="index.html">Beranda</a></li>
               <li><a href="destination.html">Destinasi</a></li>
-              <li><a href="#">Usaha Lokal</a></li>
-              <li><a href="#">Tentang Kami</a></li>
+              <li><a href="usaha-lokal.html">Usaha Lokal</a></li>
+              <li><a href="">Tentang Kami</a></li>
             </ul>
           </nav>
           <a href="#" id="register" class="bg-princetonOrange text-white font-semibold py-1.5 px-8 border-none rounded-lg">Daftar</a>
