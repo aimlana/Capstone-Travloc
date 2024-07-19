@@ -1,126 +1,266 @@
 <!DOCTYPE html>
 <html lang="id">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />
-  <!-- AOS -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <title>Destinasi</title>
-</head>
-<body class="font-plusJakarta bg-alabaster w-screen overflow-x-hidden">
-  <!-- Navbar -->
-  <app-navbar></app-navbar>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Other tags -->
+    <meta name="dicoding:email" content="salim.yaklu@gmail.com" />
+    <!-- Other tags -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>Destinasi</title>
+  </head>
+  <body class="font-plusJakarta bg-alabaster w-screen overflow-x-hidden">
+    <!-- Navbar -->
+    <app-navbar></app-navbar>
 
-  <!-- Hero -->
-  <section id="hero" class="h-screen relative overflow-hidden">
-    <img src="images/penyu.png" alt="penyu" class="w-full h-full object-cover">
-    <div class="absolute inset-0 bg-black opacity-50"></div>
-    <div class="absolute inset-0 flex flex-col items-center justify-center z-10">
-      <h1 class="text-5xl font-semibold text-white">Terokai Keindahan Nusantara</h1>
-      <p class="text-white text-lg mt-6">Jelajahi Keindahan dan Pesona Alam di Setiap Sudut Nusantara</p>
-    </div>
-  </section>
+    <!-- Hero -->
+    <section id="hero" class="h-screen relative overflow-hidden">
+      <img
+        src="images/penyu.png"
+        alt="penyu"
+        class="w-full h-full object-cover"
+      />
+      <div class="absolute inset-0 bg-black opacity-50"></div>
+      <div
+        class="absolute inset-0 flex flex-col items-center justify-center z-10"
+      >
+        <h1 class="text-5xl font-semibold text-white">
+          Terokai Keindahan Nusantara
+        </h1>
+        <p class="text-white text-lg mt-6">
+          Jelajahi Keindahan dan Pesona Alam di Setiap Sudut Nusantara
+        </p>
+      </div>
+    </section>
 
-  <!-- Main Destination -->
-  <section id="main-destination" class="my-56 mx-20.5">
-    <h2 class="text-3xl font-semibold text-center" data-aos="fade-down" data-aos-duration="1000">Destinasi Utama</h2>
-    <div class="mt-37" data-aos="fade-up" data-aos-duration="1000">
-      <div class="grid grid-cols-3 gap-x-4 items-start">
-        <div class="col-span-1">
-          <h3 class="text-xl font-medium">Danau Toba, <br>Sumatera Utara</h3>
+    <!-- Main Destination -->
+    <section id="main-destination" class="my-56 mx-20.5">
+      <h2
+        class="text-3xl font-semibold text-center"
+        data-aos="fade-down"
+        data-aos-duration="1000"
+      >
+        Destinasi Utama
+      </h2>
+      <div class="mt-37" data-aos="fade-up" data-aos-duration="1000">
+        <div class="grid grid-cols-3 gap-x-4 items-start">
+          <div class="col-span-1">
+            <h3 class="text-xl font-medium">
+              Danau Toba, <br />Sumatera Utara
+            </h3>
+          </div>
+          <div class="col-span-1">
+            <p>
+              Terletak di Sumatera Utara, Danau Toba adalah danau vulkanik
+              terbesar di dunia dan salah satu keajaiban alam Indonesia.
+            </p>
+          </div>
+          <div class="col-span-1 flex flex-col justify-between">
+            <a
+              href="danau-toba.html"
+              class="self-end flex items-center gap-2 py-3 px-5 border border-black rounded-full"
+            >
+              <p>Selengkapnya</p>
+              <svg
+                width="24"
+                height="24"
+                fill="none"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.704 4.284a1 1 0 1 0-1.403 1.424L17.67 11H4a1 1 0 1 0 0 2h13.665L12.3 18.285a1 1 0 0 0 1.403 1.424l6.925-6.822a1.25 1.25 0 0 0 0-1.78l-6.925-6.823Z"
+                  fill="#121212"
+                />
+              </svg>
+            </a>
+          </div>
         </div>
-        <div class="col-span-1">
-          <p>Terletak di Sumatera Utara, Danau Toba adalah danau vulkanik terbesar di dunia dan salah satu keajaiban alam Indonesia.</p>
+        <div class="w-full h-0.02 bg-gray-400 mt-20"></div>
+        <div class="grid grid-cols-3 gap-x-4 items-start mt-20">
+          <div class="col-span-1">
+            <h3 class="text-xl font-medium">
+              Pulau Komodo, <br />Nusa Tenggara Timur
+            </h3>
+          </div>
+          <div class="col-span-1">
+            <p>
+              Pulau Komodo di Nusa Tenggara Timur terkenal sebagai rumah bagi
+              komodo, reptil terbesar di dunia.
+            </p>
+          </div>
+          <div class="col-span-1 flex flex-col justify-between">
+            <a
+              href="pulau-komodo.html"
+              class="self-end flex items-center gap-2 py-3 px-5 border border-black rounded-full"
+            >
+              <p>Selengkapnya</p>
+              <svg
+                width="24"
+                height="24"
+                fill="none"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.704 4.284a1 1 0 1 0-1.403 1.424L17.67 11H4a1 1 0 1 0 0 2h13.665L12.3 18.285a1 1 0 0 0 1.403 1.424l6.925-6.822a1.25 1.25 0 0 0 0-1.78l-6.925-6.823Z"
+                  fill="#121212"
+                />
+              </svg>
+            </a>
+          </div>
         </div>
-        <div class="col-span-1 flex flex-col justify-between">
-          <a href="danau-toba.html" class="self-end flex items-center gap-2 py-3 px-5 border border-black rounded-full">
-            <p>Selengkapnya</p>
-            <svg width="24" height="24" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path d="M13.704 4.284a1 1 0 1 0-1.403 1.424L17.67 11H4a1 1 0 1 0 0 2h13.665L12.3 18.285a1 1 0 0 0 1.403 1.424l6.925-6.822a1.25 1.25 0 0 0 0-1.78l-6.925-6.823Z" fill="#121212"/>
-            </svg>
-          </a>
+        <div class="w-full h-0.02 bg-gray-400 mt-20"></div>
+        <div class="grid grid-cols-3 gap-x-4 items-start mt-20">
+          <div class="col-span-1">
+            <h3 class="text-xl font-medium">
+              Taman Laut Bunaken, <br />Sulawesi Utara
+            </h3>
+          </div>
+          <div class="col-span-1">
+            <p>
+              Terletak di Sulawesi Utara, Taman Laut Bunaken adalah surga bagi
+              para penyelam dan pecinta alam bawah laut.
+            </p>
+          </div>
+          <div class="col-span-1 flex flex-col justify-between">
+            <a
+              href="bunaken.html"
+              class="self-end flex items-center gap-2 py-3 px-5 border border-black rounded-full"
+            >
+              <p>Selengkapnya</p>
+              <svg
+                width="24"
+                height="24"
+                fill="none"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.704 4.284a1 1 0 1 0-1.403 1.424L17.67 11H4a1 1 0 1 0 0 2h13.665L12.3 18.285a1 1 0 0 0 1.403 1.424l6.925-6.822a1.25 1.25 0 0 0 0-1.78l-6.925-6.823Z"
+                  fill="#121212"
+                />
+              </svg>
+            </a>
+          </div>
         </div>
       </div>
-      <div class="w-full h-0.02 bg-gray-400 mt-20"></div>
-      <div class="grid grid-cols-3 gap-x-4 items-start mt-20">
-        <div class="col-span-1">
-          <h3 class="text-xl font-medium">Pulau Komodo, <br>Nusa Tenggara Timur</h3>
-        </div>
-        <div class="col-span-1">
-          <p>Pulau Komodo di Nusa Tenggara Timur terkenal sebagai rumah bagi komodo, reptil terbesar di dunia.</p>
-        </div>
-        <div class="col-span-1 flex flex-col justify-between">
-          <a href="pulau-komodo.html" class="self-end flex items-center gap-2 py-3 px-5 border border-black rounded-full">
-            <p>Selengkapnya</p>
-            <svg width="24" height="24" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path d="M13.704 4.284a1 1 0 1 0-1.403 1.424L17.67 11H4a1 1 0 1 0 0 2h13.665L12.3 18.285a1 1 0 0 0 1.403 1.424l6.925-6.822a1.25 1.25 0 0 0 0-1.78l-6.925-6.823Z" fill="#121212"/>
-            </svg>
-          </a>
-        </div>
-      </div>
-      <div class="w-full h-0.02 bg-gray-400 mt-20"></div>
-      <div class="grid grid-cols-3 gap-x-4 items-start mt-20">
-        <div class="col-span-1">
-          <h3 class="text-xl font-medium">Taman Laut Bunaken, <br>Sulawesi Utara</h3>
-        </div>
-        <div class="col-span-1">
-          <p>Terletak di Sulawesi Utara, Taman Laut Bunaken adalah surga bagi para penyelam dan pecinta alam bawah laut.</p>
-        </div>
-        <div class="col-span-1 flex flex-col justify-between">
-          <a href="bunaken.html" class="self-end flex items-center gap-2 py-3 px-5 border border-black rounded-full">
-            <p>Selengkapnya</p>
-            <svg width="24" height="24" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path d="M13.704 4.284a1 1 0 1 0-1.403 1.424L17.67 11H4a1 1 0 1 0 0 2h13.665L12.3 18.285a1 1 0 0 0 1.403 1.424l6.925-6.822a1.25 1.25 0 0 0 0-1.78l-6.925-6.823Z" fill="#121212"/>
-            </svg>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Galery -->
-  <section id="galery" class="mb-40 mt-72 mx-20.5">
-    <h2 class="text-4.5xl font-semibold text-center" data-aos="fade-down" data-aos-duration="1000">Pesona Wisata Indonesia <br>dalam Gambar</h2>
-    <!-- Picture -->
-    <div class="grid grid-cols-3 auto-rows-[240px] gap-4 mt-20">
-      <div class="row-span-2 bg-gray-400 w-[428px] rounded-3xl overflow-hidden" data-aos="fade-right" data-aos-duration="1000">
-        <img src="images/waerebo.jpg" alt="gambar wisata" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+    <!-- Galery -->
+    <section id="galery" class="mb-40 mt-72 mx-20.5">
+      <h2
+        class="text-4.5xl font-semibold text-center"
+        data-aos="fade-down"
+        data-aos-duration="1000"
+      >
+        Pesona Wisata Indonesia <br />dalam Gambar
+      </h2>
+      <!-- Picture -->
+      <div class="grid grid-cols-3 auto-rows-[240px] gap-4 mt-20">
+        <div
+          class="row-span-2 bg-gray-400 w-[428px] rounded-3xl overflow-hidden"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
+          <img
+            src="images/waerebo.jpg"
+            alt="gambar wisata"
+            class="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+          />
+        </div>
+        <div
+          class="bg-gray-400 w-[428px] rounded-3xl overflow-hidden"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <img
+            src="images/pantai-pink.jpg"
+            alt="gambar wisata"
+            class="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+          />
+        </div>
+        <div
+          class="row-span-2 bg-gray-400 w-[428px] rounded-3xl overflow-hidden"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
+          <img
+            src="images/ntt-penida.jpg"
+            alt="gambar wisata"
+            class="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+          />
+        </div>
+        <div
+          class="col-start-1 row-start-3 bg-gray-400 w-[428px] rounded-3xl overflow-hidden"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
+          <img
+            src="images/bunaken2.jpg"
+            alt="gambar wisata"
+            class="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+          />
+        </div>
+        <div
+          class="row-span-2 col-start-2 row-start-2 bg-gray-400 w-[428px] rounded-3xl overflow-hidden"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <img
+            src="images/penida1.jpg"
+            alt="gambar wisata"
+            class="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+          />
+        </div>
+        <div
+          class="row-span-2 col-start-3 row-start-3 bg-gray-400 w-[428px] rounded-3xl overflow-hidden"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
+          <img
+            src="images/komodo.jpg"
+            alt="gambar wisata"
+            class="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+          />
+        </div>
+        <div
+          class="row-start-4 bg-gray-400 w-[428px] rounded-3xl overflow-hidden"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
+          <img
+            src="images/bunaken.jpg"
+            alt="gambar wisata"
+            class="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+          />
+        </div>
+        <div
+          class="row-start-4 bg-gray-400 w-[428px] rounded-3xl overflow-hidden"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <img
+            src="images/padar.jpg"
+            alt="gambar wisata"
+            class="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+          />
+        </div>
       </div>
-      <div class="bg-gray-400 w-[428px] rounded-3xl overflow-hidden" data-aos="fade-up" data-aos-duration="1000">
-        <img src="images/pantai-pink.jpg" alt="gambar wisata" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
-      </div>
-      <div class="row-span-2 bg-gray-400 w-[428px] rounded-3xl overflow-hidden" data-aos="fade-left" data-aos-duration="1000">
-        <img src="images/ntt-penida.jpg" alt="gambar wisata" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
-      </div>
-      <div class="col-start-1 row-start-3 bg-gray-400 w-[428px] rounded-3xl overflow-hidden" data-aos="fade-right" data-aos-duration="1000">
-        <img src="images/bunaken2.jpg" alt="gambar wisata" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
-      </div>
-      <div class="row-span-2 col-start-2 row-start-2 bg-gray-400 w-[428px] rounded-3xl overflow-hidden" data-aos="fade-up" data-aos-duration="1000">
-        <img src="images/penida1.jpg" alt="gambar wisata" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
-      </div>
-      <div class="row-span-2 col-start-3 row-start-3 bg-gray-400 w-[428px] rounded-3xl overflow-hidden" data-aos="fade-left" data-aos-duration="1000">
-        <img src="images/komodo.jpg" alt="gambar wisata" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
-      </div>
-      <div class="row-start-4 bg-gray-400 w-[428px] rounded-3xl overflow-hidden" data-aos="fade-right" data-aos-duration="1000">
-        <img src="images/bunaken.jpg" alt="gambar wisata" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
-      </div>
-      <div class="row-start-4 bg-gray-400 w-[428px] rounded-3xl overflow-hidden" data-aos="fade-up" data-aos-duration="1000">
-        <img src="images/padar.jpg" alt="gambar wisata" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Footer -->
-  <app-footer></app-footer>
-</body>
+    <!-- Footer -->
+    <app-footer></app-footer>
+  </body>
 </html>

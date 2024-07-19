@@ -1,42 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />
-  <title>Travloc - Login</title>
-</head>
-<body class="font-plusJakarta bg-alabaster w-screen overflow-x-hidden">
-  <section class="flex justify-between">
-    <div class="w-1/2 flex flex-col justify-center items-center px-32">
-      <div class="w-16 h-16">
-        <img src="images/logo.png" alt="logo travloc">
-      </div>
-      <h1 class="text-3xl font-bold">Hai, Selamat Datang</h1>
-      <p class="text-lg pt-2">Belum punya akun? <span class="text-princetonOrange font-semibold"><a href="register.html">Buat Akun</a></span></p>
-      <div class="w-full mt-20">
-        <input id="email" class="block text-left py-4 w-full placeholder-gray-500 focus:placeholder-black bg-transparent border-b-2 border-gray-500 focus:border-black focus:outline-none focus:font-semibold"
-              type="email" name="email" placeholder="Masukkan alamat email">
-        <input id="password" class="mt-6 mb-8 block text-left py-4 w-full placeholder-gray-500 focus:placeholder-black bg-transparent border-b-2 border-gray-500 focus:border-black focus:outline-none focus:font-semibold"
-              type="password" name="password" placeholder="Masukkan password">
-        <div class="flex justify-end">
-          <a href="#" class="text-sm font-semibold">Lupa password?</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Other tags -->
+    <meta name="dicoding:email" content="salim.yaklu@gmail.com" />
+    <!-- Other tags -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Travloc - Login</title>
+  </head>
+  <body class="font-plusJakarta bg-alabaster w-screen overflow-x-hidden">
+    <section class="flex justify-between">
+      <div class="w-1/2 flex flex-col justify-center items-center px-32">
+        <div class="w-16 h-16">
+          <img src="images/logo.png" alt="logo travloc" />
         </div>
-        <button type="submit" class="bg-princetonOrange w-full py-3 mt-10 text-sm text-white rounded-xl">Masuk</button>
+        <h1 class="text-3xl font-bold">Hai, Selamat Datang</h1>
+        <p class="text-lg pt-2">
+          Belum punya akun?
+          <span class="text-princetonOrange font-semibold"
+            ><a href="register.html">Buat Akun</a></span
+          >
+        </p>
+        <div class="w-full mt-20">
+          <input
+            id="email"
+            class="block text-left py-4 w-full placeholder-gray-500 focus:placeholder-black bg-transparent border-b-2 border-gray-500 focus:border-black focus:outline-none focus:font-semibold"
+            type="email"
+            name="email"
+            placeholder="Masukkan alamat email"
+          />
+          <input
+            id="password"
+            class="mt-6 mb-8 block text-left py-4 w-full placeholder-gray-500 focus:placeholder-black bg-transparent border-b-2 border-gray-500 focus:border-black focus:outline-none focus:font-semibold"
+            type="password"
+            name="password"
+            placeholder="Masukkan password"
+          />
+          <div class="flex justify-end">
+            <a href="#" class="text-sm font-semibold">Lupa password?</a>
+          </div>
+          <button
+            type="submit"
+            class="bg-princetonOrange w-full py-3 mt-10 text-sm text-white rounded-xl"
+          >
+            Masuk
+          </button>
+        </div>
       </div>
-    </div>
-    <div class="relative w-1/2 h-screen overflow-hidden">
-      <img src="images/ntt-penida.jpg" alt="nusa penida" class="w-full h-full object-cover">
-      <div class="absolute inset-0 bg-black opacity-15"></div>
-    </div>
-  </section>
-</body>
+      <div class="relative w-1/2 h-screen overflow-hidden">
+        <img
+          src="images/ntt-penida.jpg"
+          alt="nusa penida"
+          class="w-full h-full object-cover"
+        />
+        <div class="absolute inset-0 bg-black opacity-15"></div>
+      </div>
+    </section>
+  </body>
 </html>
