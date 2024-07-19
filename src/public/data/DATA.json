@@ -1,139 +1,154 @@
 {
   "umkm": [
     {
-      "id": "UMKM-A1B-1C3D4",
-      "name": "Kerajinan Tangan Batak",
-      "rating": 4.5,
       "description": "Kerajinan Tangan Batak menawarkan berbagai macam produk kerajinan tangan khas suku Batak. Produk-produk yang dihasilkan meliputi anyaman, patung kayu, dan ukiran khas Batak yang sangat diminati oleh wisatawan.",
-      "location": "Medan, Sumatera Utara",
       "email": "kerajinantanganbatak@gmail.com",
-      "phone_number": "081234567890"
+      "id": "UMKM-A1B-1C3D4",
+      "image": "https://firebasestorage.googleapis.com/v0/b/travloc1.appspot.com/o/batak.webp?alt=media&token=abe26385-a5db-4198-b2b0-69af6c304224",
+      "location": "Medan, Sumatera Utara",
+      "name": "Kerajinan Tangan Batak",
+      "phone_number": "081234567890",
+      "rating": 4.5
     },
     {
-      "id": "UMKM-X2Y-9Z8W7",
-      "name": "Souvenir Minahasa",
-      "rating": 4.3,
       "description": "Souvenir Minahasa adalah tempat terbaik untuk mendapatkan berbagai macam oleh-oleh khas Minahasa. Dari kain tenun hingga patung kayu yang indah, setiap produk dibuat dengan penuh cinta dan keahlian.",
-      "location": "Manado, Sulawesi Utara",
       "email": "souvenirminahasa@gmail.com",
-      "phone_number": "081298765432"
+      "id": "UMKM-X2Y-9Z8W7",
+      "image": "https://firebasestorage.googleapis.com/v0/b/travloc1.appspot.com/o/minahasa.jpg?alt=media&token=a006bfd3-ecc2-484a-b6ec-a2e029b703d6",
+      "location": "Manado, Sulawesi Utara",
+      "name": "Souvenir Minahasa",
+      "phone_number": "081298765432",
+      "rating": 4.3
     },
     {
-      "id": "UMKM-P3Q-2R6T5",
-      "name": "Tenun Ikat Kupang",
-      "rating": 4.7,
       "description": "Tenun Ikat Kupang menawarkan berbagai macam produk tenun ikat khas Kupang, NTT. Setiap kain tenun dibuat secara tradisional dengan motif-motif yang indah dan penuh makna budaya.",
-      "location": "Kupang, NTT",
       "email": "tenunikatkupang@gmail.com",
-      "phone_number": "081234598765"
-    },
-    {
-      "id": "UMKM-K4M-3N8U1",
-      "name": "Kerajinan Rotan Toba",
-      "rating": 4.6,
-      "description": "Kerajinan Rotan Toba menghasilkan berbagai macam produk kerajinan dari rotan. Produk-produk kami meliputi furnitur, anyaman, dan dekorasi rumah yang dibuat dengan kualitas tinggi dan desain yang unik.",
-      "location": "Balige, Sumatera Utara",
-      "email": "kerajinanrotantoba@gmail.com",
-      "phone_number": "081276543210"
-    },
-    {
-      "id": "UMKM-D5E-7F4G6",
-      "name": "Batik Manado",
-      "rating": 4.8,
-      "description": "Batik Manado menawarkan berbagai macam pakaian batik dengan motif khas Sulawesi Utara. Setiap lembar kain batik diproduksi dengan teknik tradisional dan menggunakan pewarna alami.",
-      "location": "Manado, Sulawesi Utara",
-      "email": "batikmanado@gmail.com",
-      "phone_number": "081234578901"
-    },
-    {
-      "id": "UMKM-H6I-5J2K3",
-      "name": "Oleh-Oleh Kupang",
-      "rating": 4.4,
-      "description": "Oleh-Oleh Kupang menyediakan berbagai macam souvenir dan oleh-oleh khas NTT. Dari kain tenun, patung kayu, hingga perhiasan tradisional, semua produk kami dibuat oleh pengrajin lokal.",
+      "id": "UMKM-P3Q-2R6T5",
+      "image": "https://firebasestorage.googleapis.com/v0/b/travloc1.appspot.com/o/kupang.jpg?alt=media&token=2e78c85f-1e81-4410-880b-db10e8c47d91",
       "location": "Kupang, NTT",
-      "email": "oleholehkupang@gmail.com",
-      "phone_number": "081267489032"
+      "name": "Tenun Ikat Kupang",
+      "phone_number": "081234598765",
+      "rating": 4.7
     },
     {
-      "id": "UMKM-L7M-1N4P5",
-      "name": "Kain Ulos Medan",
-      "rating": 4.5,
-      "description": "Kain Ulos Medan menawarkan berbagai jenis kain ulos yang merupakan warisan budaya Sumatera Utara. Setiap kain ulos dibuat dengan penuh ketelitian dan merupakan hasil karya pengrajin lokal yang berpengalaman.",
-      "location": "Medan, Sumatera Utara",
-      "email": "kainulosmedan@gmail.com",
-      "phone_number": "081234509876"
+      "description": "Kerajinan Rotan Toba menghasilkan berbagai macam produk kerajinan dari rotan. Produk-produk kami meliputi furnitur, anyaman, dan dekorasi rumah yang dibuat dengan kualitas tinggi dan desain yang unik.",
+      "email": "kerajinanrotantoba@gmail.com",
+      "id": "UMKM-K4M-3N8U1",
+      "image": "https://firebasestorage.googleapis.com/v0/b/travloc1.appspot.com/o/rotan.jpg?alt=media&token=5c3a82e7-dcc7-49e0-a66d-4e666bfb3fe2",
+      "location": "Balige, Sumatera Utara",
+      "name": "Kerajinan Rotan Toba",
+      "phone_number": "081276543210",
+      "rating": 4.6
     },
     {
-      "id": "UMKM-Q8R-6S7T8",
-      "name": "Kerajinan Batu Nias",
-      "rating": 4.6,
-      "description": "Kerajinan Batu Nias adalah pusat pembuatan dan penjualan produk-produk kerajinan dari batu. Produk kami termasuk patung, ukiran, dan berbagai dekorasi rumah yang unik dan artistik.",
-      "location": "Gunungsitoli, Sumatera Utara",
-      "email": "kerajinanbatunias@gmail.com",
-      "phone_number": "081278943210"
-    },
-    {
-      "id": "UMKM-U9V-2W3X4",
-      "name": "Tenun Sumba",
-      "rating": 4.7,
-      "description": "Tenun Sumba memproduksi dan menjual berbagai macam kain tenun ikat khas Sumba, NTT. Kain tenun kami dikenal dengan motif-motif yang kaya akan makna budaya dan diproduksi dengan teknik tradisional.",
-      "location": "Waingapu, NTT",
-      "email": "tenunsumba@gmail.com",
-      "phone_number": "081234576498"
-    },
-    {
-      "id": "UMKM-Y1Z-4A5B6",
-      "name": "Kerajinan Kulit Karo",
-      "rating": 4.3,
-      "description": "Kerajinan Kulit Karo menawarkan berbagai produk dari kulit, termasuk tas, dompet, dan aksesori lainnya. Setiap produk dibuat dengan tangan oleh pengrajin lokal yang ahli dalam seni pengolahan kulit.",
-      "location": "Kabanjahe, Sumatera Utara",
-      "email": "kerajinankulitkaro@gmail.com",
-      "phone_number": "081298764321"
-    },
-    {
-      "id": "UMKM-C2D-8E7F9",
-      "name": "Pakaian Adat Manado",
-      "rating": 4.4,
-      "description": "Pakaian Adat Manado menyediakan berbagai macam pakaian adat khas Sulawesi Utara. Kami menawarkan pakaian adat untuk keperluan upacara adat, pernikahan, dan acara resmi lainnya.",
+      "description": "Batik Manado menawarkan berbagai macam pakaian batik dengan motif khas Sulawesi Utara. Setiap lembar kain batik diproduksi dengan teknik tradisional dan menggunakan pewarna alami.",
+      "email": "batikmanado@gmail.com",
+      "id": "UMKM-D5E-7F4G6",
+      "image": "https://firebasestorage.googleapis.com/v0/b/travloc1.appspot.com/o/manado.jpg?alt=media&token=1466e748-eddd-4990-8006-e03922a11590",
       "location": "Manado, Sulawesi Utara",
-      "email": "pakaianadatmanado@gmail.com",
-      "phone_number": "081245678912"
+      "name": "Batik Manado",
+      "phone_number": "081234578901",
+      "rating": 4.8
     },
     {
-      "id": "UMKM-G3H-1I4J5",
-      "name": "Kerajinan Tenun Ende",
-      "rating": 4.6,
-      "description": "Kerajinan Tenun Ende memproduksi kain tenun ikat khas Ende, NTT. Kain tenun kami dibuat dengan teknik tradisional dan dihiasi dengan motif-motif yang memiliki makna mendalam.",
-      "location": "Ende, NTT",
-      "email": "kerajinantenunende@gmail.com",
-      "phone_number": "081234576890"
+      "description": "Oleh-Oleh Kupang menyediakan berbagai macam souvenir dan oleh-oleh khas NTT. Dari kain tenun, patung kayu, hingga perhiasan tradisional, semua produk kami dibuat oleh pengrajin lokal.",
+      "email": "oleholehkupang@gmail.com",
+      "id": "UMKM-H6I-5J2K3",
+      "image": "https://firebasestorage.googleapis.com/v0/b/travloc1.appspot.com/o/olehkupang.jpg?alt=media&token=182d96e9-954d-43e4-b837-693774e501a8",
+      "location": "Kupang, NTT",
+      "name": "Oleh-Oleh Kupang",
+      "phone_number": "081267489032",
+      "rating": 4.4
     },
     {
-      "id": "UMKM-K5L-7M2N1",
-      "name": "Souvenir Medan",
-      "rating": 4.5,
-      "description": "Souvenir Medan menawarkan berbagai macam oleh-oleh dan souvenir khas Medan. Produk kami termasuk miniatur, kaos, dan berbagai barang unik lainnya yang cocok untuk dijadikan kenang-kenangan.",
+      "description": "Kain Ulos Medan menawarkan berbagai jenis kain ulos yang merupakan warisan budaya Sumatera Utara. Setiap kain ulos dibuat dengan penuh ketelitian dan merupakan hasil karya pengrajin lokal yang berpengalaman.",
+      "email": "kainulosmedan@gmail.com",
+      "id": "UMKM-L7M-1N4P5",
+      "image": "https://firebasestorage.googleapis.com/v0/b/travloc1.appspot.com/o/ulos.jpg?alt=media&token=8ab76958-c350-46b8-baa1-be3351db75e4",
       "location": "Medan, Sumatera Utara",
+      "name": "Kain Ulos Medan",
+      "phone_number": "081234509876",
+      "rating": 4.5
+    },
+    {
+      "description": "Kerajinan Batu Nias adalah pusat pembuatan dan penjualan produk-produk kerajinan dari batu. Produk kami termasuk patung, ukiran, dan berbagai dekorasi rumah yang unik dan artistik.",
+      "email": "kerajinanbatunias@gmail.com",
+      "id": "UMKM-Q8R-6S7T8",
+      "image": "https://firebasestorage.googleapis.com/v0/b/travloc1.appspot.com/o/nias.jpg?alt=media&token=18504bfc-3df6-4f2a-b9d7-a14963ea5a1f",
+      "location": "Gunungsitoli, Sumatera Utara",
+      "name": "Kerajinan Batu Nias",
+      "phone_number": "081278943210",
+      "rating": 4.6
+    },
+    {
+      "description": "Tenun Sumba memproduksi dan menjual berbagai macam kain tenun ikat khas Sumba, NTT. Kain tenun kami dikenal dengan motif-motif yang kaya akan makna budaya dan diproduksi dengan teknik tradisional.",
+      "email": "tenunsumba@gmail.com",
+      "id": "UMKM-U9V-2W3X4",
+      "image": "https://firebasestorage.googleapis.com/v0/b/travloc1.appspot.com/o/sumba.jpg?alt=media&token=9a48577e-9b6e-4d87-aeb7-d3102d427be2",
+      "location": "Waingapu, NTT",
+      "name": "Tenun Sumba",
+      "phone_number": "081234576498",
+      "rating": 4.7
+    },
+    {
+      "description": "Kerajinan Kulit Karo menawarkan berbagai produk dari kulit, termasuk tas, dompet, dan aksesori lainnya. Setiap produk dibuat dengan tangan oleh pengrajin lokal yang ahli dalam seni pengolahan kulit.",
+      "email": "kerajinankulitkaro@gmail.com",
+      "id": "UMKM-Y1Z-4A5B6",
+      "image": "https://firebasestorage.googleapis.com/v0/b/travloc1.appspot.com/o/karo.jpeg?alt=media&token=e2a2393e-cc38-40b0-8ad4-cfbfbc6b2ff1",
+      "location": "Kabanjahe, Sumatera Utara",
+      "name": "Kerajinan Kulit Karo",
+      "phone_number": "081298764321",
+      "rating": 4.3
+    },
+    {
+      "description": "Pakaian Adat Manado menyediakan berbagai macam pakaian adat khas Sulawesi Utara. Kami menawarkan pakaian adat untuk keperluan upacara adat, pernikahan, dan acara resmi lainnya.",
+      "email": "pakaianadatmanado@gmail.com",
+      "id": "UMKM-C2D-8E7F9",
+      "image": "https://firebasestorage.googleapis.com/v0/b/travloc1.appspot.com/o/pakaianmanado.jpg?alt=media&token=a5b84fe7-be92-4a2c-97ce-773efdd7d12a",
+      "location": "Manado, Sulawesi Utara",
+      "name": "Pakaian Adat Manado",
+      "phone_number": "081245678912",
+      "rating": 4.4
+    },
+    {
+      "description": "Kerajinan Tenun Ende memproduksi kain tenun ikat khas Ende, NTT. Kain tenun kami dibuat dengan teknik tradisional dan dihiasi dengan motif-motif yang memiliki makna mendalam.",
+      "email": "kerajinantenunende@gmail.com",
+      "id": "UMKM-G3H-1I4J5",
+      "image": "https://firebasestorage.googleapis.com/v0/b/travloc1.appspot.com/o/tenunende.jpg?alt=media&token=9abe0d9e-78bd-41fd-b6dc-a8fbaf5e7c74",
+      "location": "Ende, NTT",
+      "name": "Kerajinan Tenun Ende",
+      "phone_number": "081234576890",
+      "rating": 4.6
+    },
+    {
+      "description": "Souvenir Medan menawarkan berbagai macam oleh-oleh dan souvenir khas Medan. Produk kami termasuk miniatur, kaos, dan berbagai barang unik lainnya yang cocok untuk dijadikan kenang-kenangan.",
       "email": "souvenirmedan@gmail.com",
-      "phone_number": "081234509832"
+      "id": "UMKM-K5L-7M2N1",
+      "image": "https://firebasestorage.googleapis.com/v0/b/travloc1.appspot.com/o/souvenirmedan.png?alt=media&token=9800455f-6ac7-43b0-a9e7-fa1dd3ec7693",
+      "location": "Medan, Sumatera Utara",
+      "name": "Souvenir Medan",
+      "phone_number": "081234509832",
+      "rating": 4.5
     },
     {
-      "id": "UMKM-O6P-3Q8R9",
-      "name": "Kerajinan Tangan Sangihe",
-      "rating": 4.7,
       "description": "Kerajinan Tangan Sangihe memproduksi berbagai macam kerajinan tangan khas Sangihe, Sulawesi Utara. Produk kami meliputi anyaman, patung kayu, dan kerajinan dari bahan alami lainnya.",
-      "location": "Tahuna, Sulawesi Utara",
       "email": "kerajinantangansangihe@gmail.com",
-      "phone_number": "081234576912"
+      "id": "UMKM-O6P-3Q8R9",
+      "image": "https://firebasestorage.googleapis.com/v0/b/travloc1.appspot.com/o/sangihe.jpg?alt=media&token=332d3274-212f-4380-8e27-39d3c1b402ba",
+      "location": "Tahuna, Sulawesi Utara",
+      "name": "Kerajinan Tangan Sangihe",
+      "phone_number": "081234576912",
+      "rating": 4.7
     },
     {
-      "id": "UMKM-S7T-4U9V2",
-      "name": "Tenun Flores",
-      "rating": 4.8,
       "description": "Tenun Flores menawarkan kain tenun ikat khas Flores, NTT. Kain tenun kami terkenal dengan kualitas tinggi dan motif yang sangat indah, cocok untuk pakaian dan dekorasi.",
-      "location": "Maumere, NTT",
       "email": "tenunflores@gmail.com",
-      "phone_number": "081234589765"
+      "id": "UMKM-S7T-4U9V2",
+      "image": "https://firebasestorage.googleapis.com/v0/b/travloc1.appspot.com/o/flores.jpeg?alt=media&token=95829bd6-9e27-404e-8f3f-00c9da05455b",
+      "location": "Maumere, NTT",
+      "name": "Tenun Flores",
+      "phone_number": "081234589765",
+      "rating": 4.8
     }
   ]
 }

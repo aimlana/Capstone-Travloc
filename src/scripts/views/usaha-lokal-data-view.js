@@ -15,7 +15,7 @@ const umkmDataView = () => {
     umkmList.innerHTML += `
     <div class="w-[396px] h-auto rounded-3xl flex flex-col bg-white pb-6">
       <div class="w-full h-[200px] overflow-hidden rounded-t-3xl">
-        <img src="" alt="tas rajut" class="w-full h-full object-cover">
+        <img src="${umkm.image}" alt="${umkm.name}" class="w-full h-full object-cover">
       </div>
       <div class="px-8 w-full flex flex-col items-start">
         <div class="flex justify-between items-center mt-8 w-full">
