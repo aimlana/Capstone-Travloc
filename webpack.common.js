@@ -9,7 +9,7 @@ const glob = require('glob');
 // Fungsi untuk menghasilkan instance HtmlWebpackPlugin untuk setiap file HTML
 function generateHtmlPlugins(templateDir) {
   const templateFiles = glob.sync(`${templateDir}/**/*.html`);
-  return templateFiles.map((file) => {
+  return templateFiles.map(file => {
     const fileName = path.basename(file);
     return new HtmlWebpackPlugin({
       filename: fileName,
@@ -55,7 +55,7 @@ module.exports = {
       patterns: [
         {
           from: path.resolve(__dirname, 'src/public/'),
-          to: path.resolve(__dirname, 'public/'),
+          to: path.resolve(__dirname, 'dist/'),
         },
       ],
     }),
