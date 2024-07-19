@@ -66,7 +66,7 @@ class AppNavbar extends HTMLElement {
               <li><a href="">Tentang Kami</a></li>
             </ul>
           </nav>
-          <a href="#" id="register" class="bg-princetonOrange text-white font-semibold py-1.5 px-8 border-none rounded-lg">Daftar</a>
+          <a href="register.html" id="register" class="bg-princetonOrange text-white font-semibold py-1.5 px-8 border-none rounded-lg">Daftar</a>
         </div>
       </header>
     `;
